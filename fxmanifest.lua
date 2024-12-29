@@ -7,4 +7,8 @@ version '1.0.0'
 lua54 'yes'
 this_is_a_map 'yes'
 
+escrow_ignore {
+    'stream/*.ydr',
+}
+
 data_file 'DLC_ITYP_REQUEST' 'stream/vu.ytyp'
