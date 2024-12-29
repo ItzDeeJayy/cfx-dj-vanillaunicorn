@@ -1,0 +1,73 @@
+DJ's Collections Read Me
+
+IMPORTANT:
+For all ox inventory users please use this code inside your ox_inventory\data\animations.lua 
+remove all the code thats default by ox inventory
+
+Old:
+return {
+	anim = {
+		['eating'] = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+	},
+	prop = {
+		['burger'] = { model = `prop_cs_burger_01`, pos = vec3(0.02, 0.02, -0.02), rot = vec3(0.0, 0.0, 0.0) },
+	}
+}
+
+NEW:
+return {
+    anim = {
+        ['eating'] = { 
+            dict = 'mp_player_inteat@burger', 
+            clip = 'mp_player_int_eat_burger_fp' 
+        },
+        --[[['fork'] = { 
+            dict = 'anim@eat@fork', 
+            clip = 'fork_clip' 
+        },]] --only use this if you have Bzzz Props 
+        ['alca'] = { 
+            dict = 'anim@eat@fork', 
+            clip = 'fork_clip' 
+        },
+        ['drink'] = { 
+            dict = 'amb@world_human_drinking@coffee@male@idle_a', 
+            clip = 'idle_c' 
+        },
+        ['drink2'] = { 
+            dict = 'mp_player_intdrink', 
+            clip = 'loop' 
+        },
+
+    },
+    prop = {
+        ['burger'] = { 
+            model = `prop_cs_burger_01`, 
+            pos = vec3(0.02, 0.02, -0.02), 
+            rot = vec3(0.0, 0.0, 0.0) 
+        },
+        ['forks'] = {
+            model = 'alcaprop_fork',
+            bone = 57005,
+            pos = vec3(0.14, 0.02, 0.01),
+            rot = vec3(-118.0, 192.0, 24.0)
+        }
+    }
+}
+SUBCRIPTION PACKAGE:
+Purchase: https://djscollections.com/package/6502851
+Link: https://app.gitbook.com/o/QUvqhyrwtfpQQWhj5RVJ/s/i5XmekR5OGWdKuLzfv2Q/pre-install-ox-inventory
+
+STEPS:
+- drag and drop collection_"name" inside a stream folder
+- Go into "install/configs" folder and find your inventory copy and paste your desired inventory of choice
+    - ox inventory: ox_inventory\data\items.lua
+- Go into "install/photos" folder copy images provided into your desired inventory of choice
+    - ox inventory: ox_inventory\web\images
+- In your main server files look for "server.cfg" and where all your resources are follow the code below
+    - ensure collection_"put prop resource name here"
+
+
+HELPFUL TIPS:
+- Escrowed products need to be its own resource please follow the steps above.
+- Open source products can be combined into other resources if you don't like having alot of resources, but no support will be
+givin if trying to do so.

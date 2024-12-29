@@ -1,0 +1,239 @@
+	['djs_berryflower_martini'] = {
+		label = 'Berry Flower Martini',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_berryflower_martini`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_blackberry_martini'] = {
+		label = 'Black Berry Martini',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_blackberry_martini`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_bloodorange_margarita'] = {
+		label = 'Blood Orange Margarita',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_bloodorange_margarita`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_carambolaandmint_margarita'] = {
+		label = 'Carambo and Mint Margarita',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_carambolaandmint_margarita`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_cherryhibiscus_margarita'] = {
+		label = 'Cherry Hibiscus Margarita',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_cherryhibiscus_margarita`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_cherrypineapple_margarita'] = {
+		label = 'Cherry Pineapple Margarita',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_cherrypineapple_margarita`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_ginandtonic'] = {
+		label = 'Ocean Water Gin and Tonic',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_ginandtonic`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_grapefruit_martini'] = {
+		label = 'Grape Fruit Martini',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_grapefruit_martini`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_prop_blueberrypie_jelloshot'] = {
+		label = 'Blueberry Pie Jello Shot',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_prop_blueberrypie_jelloshot`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_prop_cherrylimepie_jelloshot'] = {
+		label = 'Cherry Lime Pie Jello Shot',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_prop_cherrylimepie_jelloshot`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_prop_cherrypie_jelloshot'] = {
+		label = 'Cherry Pie Jello Shot',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_prop_cherrypie_jelloshot`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_prop_keylimepie_jelloshot'] = {
+		label = 'Keylime Pie Jello Shot',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_prop_keylimepie_jelloshot`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_prop_orangecream_jelloshot'] = {
+		label = 'Orange Cream Jello Shot',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_prop_orangecream_jelloshot`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_prop_pineappleshortcake_jelloshot'] = {
+		label = 'Pineapple Shortcake Jello Shot',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_prop_pineappleshortcake_jelloshot`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_raspberry_martini'] = {
+		label = 'Raspberry Martini',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_raspberry_martini`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_strawberry_margarita'] = {
+		label = 'Strawberry Margarita',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `djs_strawberry_margarita`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst'
+		}
+	},
+	['djs_empanadas'] = {
+		label = 'Empanadas',
+		stack = true,
+		close = false,
+		weight = 10,
+		client = {
+			status = { hunger = 2000000 },
+			anim = 'alca',        prop = {model = 'djs_empanadas',
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.02),
+			rot = vec3(-16.0, 0.0, 0.0),
+		},
+		propTwo = { model = 'djs_prop_empanadas',
+		bone = 57005,
+		pos = vec3(0.11, 0.04, -0.03),
+		rot = vec3 (-33.0, 0.0, 0.0),
+		},
+		usetime = 17500,
+		notification = 'You have satistfied your hunger'
+		},
+	},
+	['djs_vutacos'] = {
+		label = 'Empanadas',
+		stack = true,
+		close = false,
+		weight = 10,
+		client = {
+			status = { hunger = 2000000 },
+			anim = 'alca',        prop = {model = 'djs_vutacos',
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.02),
+			rot = vec3(-16.0, 0.0, 0.0),
+		},
+		propTwo = { model = 'djs_prop_vutacos',
+		bone = 57005,
+		pos = vec3(0.11, 0.04, -0.03),
+		rot = vec3 (-33.0, 0.0, 0.0),
+		},
+		usetime = 17500,
+		notification = 'You have satistfied your hunger'
+		},
+	},
+	['djs_vuburritos'] = {
+		label = 'Empanadas',
+		stack = true,
+		close = false,
+		weight = 10,
+		client = {
+			status = { hunger = 2000000 },
+			anim = 'alca',        prop = {model = 'djs_vuburritos',
+			bone = 18905,
+			pos = vec3(0.1, 0.0, 0.02),
+			rot = vec3(-16.0, 0.0, 0.0),
+		},
+		propTwo = { model = 'djs_prop_vuburritos',
+		bone = 57005,
+		pos = vec3(0.11, 0.04, -0.03),
+		rot = vec3 (-33.0, 0.0, 0.0),
+		},
+		usetime = 17500,
+		notification = 'You have satistfied your hunger'
+		},
+	},
